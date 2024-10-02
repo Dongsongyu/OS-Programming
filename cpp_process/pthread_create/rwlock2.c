@@ -10,6 +10,7 @@
 #include <string.h>
 #include <pthread.h>
 
+#define MAX 150
 // 全局变量
 int number = 0;
 
@@ -19,7 +20,7 @@ pthread_rwlock_t rwlock;
 // 写的线程的处理函数
 void* writeNum(void* arg)
 {
-    while(1)
+    for(int i = 0; i < MAX; i++)
     {
         pthread_rwlock_wrlock(&rwlock);
         int cur = number;
@@ -28,7 +29,7 @@ void* writeNum(void* arg)
         printf("++写操作完毕, number : %d, tid = %ld\n", number, pthread_self());
         pthread_rwlock_unlock(&rwlock);
         // 添加sleep目的是要看到多个线程交替工作
-        usleep(rand() % 100);
+        //usleep(rand() % 100); 
     }
 
     return NULL;
@@ -39,12 +40,11 @@ void* writeNum(void* arg)
 // 每个线程中的栈资源是独享
 void* readNum(void* arg)
 {
-    while(1)
+    for(int i = 0; i < MAX; i++)
     {
         pthread_rwlock_rdlock(&rwlock);
         printf("--全局变量number = %d, tid = %ld\n", number, pthread_self());
         pthread_rwlock_unlock(&rwlock);
-        usleep(rand() % 100);
     }
     return NULL;
 }
