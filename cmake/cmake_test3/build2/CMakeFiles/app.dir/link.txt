@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/app.dir/main.cpp.o -o app   -L/home/yds/OS_Programming/cmake_test3/lib1  -Wl,-rpath,/home/yds/OS_Programming/cmake_test3/lib1 -lcalc 

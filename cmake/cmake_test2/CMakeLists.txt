@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.15)
+project(CALC)
+include_directories(${PROJECT_SOURCE_DIR}/include)
+file(GLOB SRC_LIST "${CMAKE_CURRENT_SOURCE_DIR}/src/*.cpp")
+set(LIBRARY_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/build2)
+add_library(calc SHARED ${SRC_LIST})

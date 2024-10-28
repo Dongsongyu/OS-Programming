@@ -1,0 +1,3 @@
+/home/yds/OS_Programming/cmake_test2/build/CMakeFiles/calc.dir
+/home/yds/OS_Programming/cmake_test2/build/CMakeFiles/edit_cache.dir
+/home/yds/OS_Programming/cmake_test2/build/CMakeFiles/rebuild_cache.dir
