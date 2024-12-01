@@ -14,6 +14,15 @@ public:
         x += 1;
         return ret;
     }
+    A &operator--(){
+        x -= 1;
+        return *this;
+    }
+    A operator--(int){
+        A ret1(*this);
+        x -= 1;
+        return ret1;
+    }
     bool operator<(const A &a) const {
         return x < a.x;
     }
@@ -57,6 +66,9 @@ int main() {
     cout << "++a: " << ++a << endl;
     cout << "a++: " << a++ << endl;
     cout << a << endl;
-
+    cout << "--a: " << --a << endl;
+    cout << "a--: " << a-- << endl;
+    cout << a << endl;
+    
     return 0;
 }
