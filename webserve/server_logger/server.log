@@ -1,0 +1,66 @@
+Wed Dec  4 19:05:00 2024
+[INFO]Setting up routes
+Wed Dec  4 19:05:10 2024
+[INFO]Parsing HTTP request
+Wed Dec  4 19:05:10 2024
+[INFO]Handling HTTP request for URI : /register
+Wed Dec  4 19:05:10 2024
+[INFO]Parsing HTTP request
+Wed Dec  4 19:05:10 2024
+[INFO]Handling HTTP request for URI : /favicon.ico
+Wed Dec  4 19:05:37 2024
+[INFO]Setting up routes
+Wed Dec  4 19:06:13 2024
+[INFO]Setting up routes
+Wed Dec  4 19:07:02 2024
+[INFO]Setting up routes
+Wed Dec  4 19:07:13 2024
+[INFO]Parsing HTTP request
+Wed Dec  4 19:07:13 2024
+[INFO]Handling HTTP request for URI : /
+Wed Dec  4 19:07:38 2024
+[INFO]Parsing HTTP request
+Wed Dec  4 19:07:38 2024
+[INFO]Handling HTTP request for URI : /
+Wed Dec  4 19:07:56 2024
+[INFO]Parsing HTTP request
+Wed Dec  4 19:07:56 2024
+[INFO]Handling HTTP request for URI : /register
+Wed Dec  4 19:10:33 2024
+[INFO]Setting up routes
+Wed Dec  4 19:10:38 2024
+[INFO]Parsing HTTP request
+Wed Dec  4 19:10:38 2024
+[INFO]Handling HTTP request for URI : /register
+Wed Dec  4 19:10:44 2024
+[INFO]Parsing HTTP request
+Wed Dec  4 19:10:44 2024
+[INFO]Handling HTTP request for URI : /register
+Wed Dec  4 19:10:44 2024
+[ERROR]404 NOT Found
+Wed Dec  4 19:11:04 2024
+[INFO]Parsing HTTP request
+Wed Dec  4 19:11:04 2024
+[INFO]Handling HTTP request for URI : /register
+Wed Dec  4 19:11:13 2024
+[INFO]Parsing HTTP request
+Wed Dec  4 19:11:13 2024
+[INFO]Handling HTTP request for URI : /register
+Wed Dec  4 19:19:41 2024
+[INFO]Setting up routes
+Wed Dec  4 19:20:24 2024
+[INFO]Parsing HTTP request
+Wed Dec  4 19:20:24 2024
+[INFO]Handling HTTP request for URI : /register
+Wed Dec  4 19:20:24 2024
+[ERROR]Please use POST to register!
+Wed Dec  4 19:21:01 2024
+[INFO]Setting up routes
+Wed Dec  4 19:21:47 2024
+[INFO]Setting up routes
+Wed Dec  4 19:21:59 2024
+[INFO]Parsing HTTP request
+Wed Dec  4 19:21:59 2024
+[INFO]Handling HTTP request for URI : /login
+Wed Dec  4 19:21:59 2024
+[ERROR]Please use POST to login!
