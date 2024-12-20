@@ -14,6 +14,7 @@
 #include <netinet/in.h> // 引⼊⽹络字节序转换函数
 #include <string.h> // 引⼊字符串处理函数
 #include <unistd.h> // 引⼊UNIX标准函数库
+#include <sstream>
 //#include "logger.h"
 #include "Database.h"
 

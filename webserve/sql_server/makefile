@@ -1,15 +1,16 @@
-target = serve
-src = $(wildcard *.cpp ./src/*.cpp)
+target = serve1
+src = $(wildcard *.cpp) $(wildcard ./src/*.cpp)   
 obj = $(patsubst %.cpp, %.o, $(src))
 include = ./include
+LIBS = -lsqlite3
 
 $(target): $(obj)
-	g++ -o $@ $^  # 这里的 ^ 应该是 $^
+	g++ -o $@ $^ $(LIBS)  # Link libraries here
 
 %.o: %.cpp
-	g++ -c $< -I $(include) -o $@ -lpthread  # -c 选项应放在 $< 之前
+	g++ -c $< -I $(include) -o $@   
 
 .PHONY: clean
 
 clean:
-	-rm -f $(obj) $(target)  # -f 选项应放在 rm 命令之前
+	-rm -f $(obj) $(target)

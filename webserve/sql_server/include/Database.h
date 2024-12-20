@@ -59,6 +59,7 @@ public:
     return true;
 }
 
+//用户登录函数
 bool loginUser(const std::string& username, const std::string& password) {
     std::string sql = "select password from users where username = ?;";
     sqlite3_stmt* stmt;
@@ -87,4 +88,4 @@ bool loginUser(const std::string& username, const std::string& password) {
     LOG_INFO((std::string("User logged in: ") + username).c_str());
     return true;
 }
-
+};
