@@ -1,0 +1,44 @@
+Sun Dec 22 14:28:05 2024
+[INFO]Set socket 4 to non-blocking
+Sun Dec 22 14:28:05 2024
+[INFO]Socket created
+Sun Dec 22 14:28:05 2024
+[INFO]Server listening on port 8080
+Sun Dec 22 14:28:05 2024
+[INFO]Setting up routes
+Sun Dec 22 14:28:05 2024
+[INFO]Routes set up
+Sun Dec 22 14:28:05 2024
+[INFO]Epoll instance created with fd 5
+Sun Dec 22 14:28:05 2024
+[INFO]Server socket added to epoll instance
+Sun Dec 22 14:28:05 2024
+[INFO]Waiting for events...
+Sun Dec 22 14:28:17 2024
+[INFO]1 events ready
+Sun Dec 22 14:28:17 2024
+[INFO]Server socket event triggered
+Sun Dec 22 14:28:17 2024
+[INFO]Set socket 6 to non-blocking
+Sun Dec 22 14:28:17 2024
+[INFO]New connection accepted : fd 6
+Sun Dec 22 14:28:51 2024
+[INFO]Set socket 7 to non-blocking
+Sun Dec 22 14:28:51 2024
+[INFO]New connection accepted : fd 7
+Sun Dec 22 14:28:52 2024
+[INFO]Set socket 8 to non-blocking
+Sun Dec 22 14:28:52 2024
+[INFO]New connection accepted : fd 8
+Sun Dec 22 14:28:57 2024
+[INFO]Set socket 9 to non-blocking
+Sun Dec 22 14:28:57 2024
+[INFO]New connection accepted : fd 9
+Sun Dec 22 14:28:57 2024
+[INFO]Set socket 10 to non-blocking
+Sun Dec 22 14:28:57 2024
+[INFO]New connection accepted : fd 10
+Sun Dec 22 14:29:50 2024
+[INFO]Set socket 11 to non-blocking
+Sun Dec 22 14:29:50 2024
+[INFO]New connection accepted : fd 11
