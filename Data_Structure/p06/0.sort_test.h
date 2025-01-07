@@ -9,6 +9,7 @@
 #define _SORT_TEST_H
 
 #include <string.h>
+#include <time.h>
 
 #define SMALL_DATA_N 5000
 #define BIG_DATA_N   1000000
